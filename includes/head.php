@@ -5,7 +5,7 @@ include 'app/config.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title><?= $currPageName ?> | <?= $siteName ?></title>
+    <title><?= $currPageNameIndex ?> | <?= $siteName ?></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?= $seo_description ?>">

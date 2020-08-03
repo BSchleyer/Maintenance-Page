@@ -2,7 +2,8 @@
 
 ### Site ###
 $siteName = 'Schleyer-EDV'; // SiteName
-$url = 'http://localhost/maintenance/'; // URL with "/" to the end
+$url = ''; // URL with "/" to the end
+$currPageNameIndex = 'Maintenance'; // Set the Site-Title from the index file
 
 ### Assets ###
 $cdnUrl = $url.'assets/';

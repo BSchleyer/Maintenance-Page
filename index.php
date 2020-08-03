@@ -1,5 +1,5 @@
 <?php
-$currPageName = 'Maintenance';
+$currPageNameIndex;
 include 'includes/head.php';
 ?>
 
