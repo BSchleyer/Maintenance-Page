@@ -18,6 +18,6 @@ Beste Grüße aus Gelsenkirchen.
 
 # Screenshot
 
-Index-File: http://img.bschleyer.de/d91a7b515e295bb57b9d08c6394dd9e0.png
+Index-File: http://img.bschleyer.de/587d65745f0e5411591e4cf9131cf1cf.png
 
-Config.php: http://img.bschleyer.de/9e23292db85ba6d5bcd2c82c9eeb60f9.png
+Config.php: http://img.bschleyer.de/5b83e73c12e696216063d486809b0ac7.png
