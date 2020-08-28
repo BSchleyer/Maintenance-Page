@@ -25,4 +25,5 @@ Config.php:
  - 2: http://img.bschleyer.de/901779e5f7dcdb10e7b9fa80eb38f12a.png
 
 Imprint: http://img.bschleyer.de/72482b06ff2141085b87075bc8655c5b.png
+
 Privacy: http://img.bschleyer.de/95a1256b1ee3173fc905c1b1719f0c93.png
