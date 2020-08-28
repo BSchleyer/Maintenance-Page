@@ -1,10 +1,10 @@
 <?php
-$currPageNameIndex;
+$indexName;
 include 'includes/head.php';
 ?>
 
-<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1">
-    <img src="<?= $imgUrl ?>logo.png" width="250"></img>
+<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1 col-md-14">
+    <span></span><img src="<?= $imgUrl ?>logo.png" width="250"></img>
     <div class="flex-col-c p-t-50 p-b-50">
         <h3 class="l1-txt1 txt-center p-b-10">
             <?= $title_page ?>
