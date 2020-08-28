@@ -23,7 +23,11 @@ include 'includes/head.php';
         </h3>
 
         <p class="l1-text2" align="left">
+            <!--
 
+            Enter your privacy policy here
+
+            -->
         <p>Last Update:  28.08.2020 - 12:00 Uhr
         </p>
     </div>
