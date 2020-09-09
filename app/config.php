@@ -1,11 +1,11 @@
 <?php
 
 ### Site ###
-$siteName = 'Schleyer-EDV'; // SiteName
+$siteName = ''; // SiteName
 $indexName = 'Maintenance'; // Name of the index file (Tablist)
 $imprintName = 'Imprint'; // Name of the imprint file (Tablist)
 $privacyName = 'Privacy'; // Name of the policy file (Tablist)
-$url = 'https://maintenance.bschleyer.de/'; // URL with "/" to the end
+$url = ''; // URL with "/" to the end
 
 $button_left = 'Privacy'; // button in the footer of the left side
 $button_right = 'Imprint'; // button in the footer of the right side
@@ -18,7 +18,7 @@ $imgUrl = $url.'assets/images/'; // link to the images (photos, ...) files
 
 ### Text ###
 $title_page = 'Maintenance'; // index Title
-$text_page = 'Coming Soon'; // index Text
+$text_page = 'Coming soon.'; // index Text
 
 $day = 'Days'; // Text-Box: Day
 $hours = 'Hours'; // Text-Box: Hours
@@ -26,19 +26,25 @@ $minutes = 'Minutes'; // Text-Box: Minutes
 $seconds = 'Seconds'; // Text-Box: Seconds
 
 ### Countdown ###
-$c_year = '2022'; // Countdown-Set: Year
-$c_month = '07'; // Countdown-Set: Month
-$c_day = '27'; // Countdown-Set: Day
-$c_hour = '0'; // Countdown-Set: Hour
+$c_year = '2020'; // Countdown-Set: Year
+$c_month = '10'; // Countdown-Set: Month
+$c_day = '01'; // Countdown-Set: Day
+$c_hour = '20'; // Countdown-Set: Hour
 $c_minute = '0'; // Countdown-Set: Minute
 $c_second = '0'; // Countdown-Set: Second
 $c_timezone = 'Europe/Berlin'; // Timezones: http://momentjs.com/timezone/
 
 ### SEO-Optimze ###
-$seo_keywords = ''; // Keywords for Google
-$seo_description = ''; // Keywords for Google
+$seo_keywords = 'deinbothost, bots, bot, musikbot, musikbots, bothoster, bot-hosting, bothosting, hostingbots, bot, bot, bots, deinbot, hosting, bothoster'; // Keywords for Google
+$seo_description = 'DeinBotHost ist ein Dienstleister für MusikBots.'; // Keywords for Google
 
-### Imprint Setting ###
+### 404 - Error-Page Settings ###
+$ErrorName = '404'; // site name
+$ErrorText_header = '404 Error'; // header text
+$ErrorText_head_under = 'Page not found'; // subheader text (slogan)
+$ErrorText = 'Unfortunately we could not meet your request. So we cannot open the page you want because it doesnt exists.'; // text of the error message
+
+### Imprint Settings ###
 // -- This information is according to §5 TMG (Germany) --
 $header_text_i = 'Imprint'; // name of the header under the button
 $header_secondtext_i = 'Information by service provider within the meaning of §5 TMG'; // subname of the header

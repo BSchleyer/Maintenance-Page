@@ -8,7 +8,7 @@ include 'includes/head.php';
     <div class="flex-col-c col-md-12 p-b-5">
         <p class="l1-txt2 txt-center p-b-10">
             <button class="btn btn-primary">
-                <a href="/">
+                <a href="/home">
                     <p style="color: #b9b9b9;">
                         <i class="fas fa-hourglass-half"></i>
                         <?= $button_backhome ?>
