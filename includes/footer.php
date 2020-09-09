@@ -6,7 +6,6 @@
             <?= $siteName ?> | All Rights reserved.<br>Made with-&#10084; in Gelsenkirchen, by Björn Schleyer
 		</span>
 
-        <br>
 
         <div class="col-md-4" align="center">
 
