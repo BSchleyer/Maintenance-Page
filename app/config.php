@@ -1,7 +1,7 @@
 <?php
 
 ### Site ###
-$siteName = ''; // SiteName
+$siteName = 'Page'; // SiteName
 $indexName = 'Maintenance'; // Name of the index file (Tablist)
 $imprintName = 'Imprint'; // Name of the imprint file (Tablist)
 $privacyName = 'Privacy'; // Name of the policy file (Tablist)
@@ -35,8 +35,8 @@ $c_second = '0'; // Countdown-Set: Second
 $c_timezone = 'Europe/Berlin'; // Timezones: http://momentjs.com/timezone/
 
 ### SEO-Optimze ###
-$seo_keywords = 'deinbothost, bots, bot, musikbot, musikbots, bothoster, bot-hosting, bothosting, hostingbots, bot, bot, bots, deinbot, hosting, bothoster'; // Keywords for Google
-$seo_description = 'DeinBotHost ist ein Dienstleister für MusikBots.'; // Keywords for Google
+$seo_keywords = 'maintenance, maintenance-page, page, maintenance, wartung, wartungsseite, coming soon'; // Keywords for Google
+$seo_description = 'Maintenance-Page by bschleyer.de - Björn Schleyer'; // Keywords for Google
 
 ### 404 - Error-Page Settings ###
 $ErrorName = '404'; // site name
