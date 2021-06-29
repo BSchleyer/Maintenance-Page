@@ -1,10 +1,13 @@
 <?php
-$indexName;
+include 'app/config.php';
+
+$currPageName = $indexName;
 include 'includes/head.php';
+
 ?>
 
 <div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1 col-md-14">
-    <span></span><img src="<?= $imgUrl ?>logo.png" width="250"></img>
+    <h4 style="color: #fff;"><?= $siteName; ?></h4>
     <div class="flex-col-c p-t-50 p-b-50">
         <h3 class="l1-txt1 txt-center p-b-10">
             <?= $title_page ?>
@@ -33,5 +36,23 @@ include 'includes/head.php';
     </div>
 
 <?php
+
 include 'includes/footer.php';
+
 ?>
+
+<script>
+    $('.cd100').countdown100({
+        /*Set Endtime here*/
+        /*Endtime must be > current time*/
+        endtimeYear: <?= $c_year; ?>,
+        endtimeMonth: <?= $c_month; ?>,
+        endtimeDate: <?= $c_day; ?>,
+        endtimeHours: <?= $c_hour; ?>,
+        endtimeMinutes: <?= $c_minute; ?>,
+        endtimeSeconds: <?= $c_second; ?>,
+        timeZone: "<?= $c_timezone; ?>"
+        // ex:  timeZone: "America/New_York"
+        //go to " http://momentjs.com/timezone/ " to get timezone
+    });
+</script>

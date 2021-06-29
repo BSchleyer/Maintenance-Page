@@ -5,12 +5,12 @@
 
       countdown100: function(options) {
         var defaults = {
-          timeZone: "",
-          endtimeYear: 0,
-          endtimeMonth: 0,
-          endtimeDate: 0,
-          endtimeHours: 0,
-          endtimeMinutes: 0,
+          timeZone: "Europe/Berlin",
+          endtimeYear: 2021,
+          endtimeMonth: 3,
+          endtimeDate: 1,
+          endtimeHours: 22,
+          endtimeMinutes: 30,
           endtimeSeconds: 0,
         }
 

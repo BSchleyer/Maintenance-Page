@@ -1,11 +1,11 @@
 <?php
 
 ### Site ###
-$siteName = 'Page'; // SiteName
+$siteName = 'Reseller-Services'; // SiteName
 $indexName = 'Maintenance'; // Name of the index file (Tablist)
 $imprintName = 'Imprint'; // Name of the imprint file (Tablist)
 $privacyName = 'Privacy'; // Name of the policy file (Tablist)
-$url = ''; // URL with "/" to the end
+$url = 'https://www.reseller-services.de/'; // URL with "/" to the end
 
 $button_left = 'Privacy'; // button in the footer of the left side
 $button_right = 'Imprint'; // button in the footer of the right side
@@ -17,8 +17,8 @@ $cdnUrl = $url.'assets/'; // link to the css, js ... files
 $imgUrl = $url.'assets/images/'; // link to the images (photos, ...) files
 
 ### Text ###
-$title_page = 'Maintenance'; // index Title
-$text_page = 'Coming soon.'; // index Text
+$title_page = 'Wartungsmodus'; // index Title
+$text_page = 'Wir sind momentan an der Entwicklung unseres Systems. Nach Ablauf des Counters, erscheinen wir. :)'; // index Text
 
 $day = 'Days'; // Text-Box: Day
 $hours = 'Hours'; // Text-Box: Hours
@@ -26,11 +26,11 @@ $minutes = 'Minutes'; // Text-Box: Minutes
 $seconds = 'Seconds'; // Text-Box: Seconds
 
 ### Countdown ###
-$c_year = '2020'; // Countdown-Set: Year
+$c_year = '2021'; // Countdown-Set: Year
 $c_month = '10'; // Countdown-Set: Month
 $c_day = '01'; // Countdown-Set: Day
-$c_hour = '20'; // Countdown-Set: Hour
-$c_minute = '0'; // Countdown-Set: Minute
+$c_hour = '12'; // Countdown-Set: Hour
+$c_minute = '00'; // Countdown-Set: Minute
 $c_second = '0'; // Countdown-Set: Second
 $c_timezone = 'Europe/Berlin'; // Timezones: http://momentjs.com/timezone/
 
@@ -50,8 +50,8 @@ $header_text_i = 'Imprint'; // name of the header under the button
 $header_secondtext_i = 'Information by service provider within the meaning of §5 TMG'; // subname of the header
 
 $i_projectname = 'Schleyer-EDV'; // Projectname
-$i_street = 'Darler Heide 92'; // street and house number
-$i_postcode_and_city = '45891 Gelsenkirchen'; // postcode and the city
+$i_street = 'Eppmannsweg 5'; // street and house number
+$i_postcode_and_city = '45896 Gelsenkirchen'; // postcode and the city
 $i_state = 'Germany'; // state: example: Germany
 
 $i_responsible = 'Björn Schleyer'; // name
