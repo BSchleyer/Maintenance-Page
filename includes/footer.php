@@ -6,6 +6,7 @@
             <?= $siteName ?> | All Rights reserved.<br>Made with-&#10084; in Gelsenkirchen, by Björn Schleyer
 		</span>
 
+        <br>
 
         <div class="col-md-4" align="center">
 
@@ -27,33 +28,39 @@
             </button>
         </div>
 
+    <br>
+    <br>
+
 </div>
 <!--===============================================================================================-->
 <script src="<?= $cdnUrl ?>vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-<script src="<?= $cdnUrl ?>vendor/countdowntime/moment.min.js"></script>
-<script src="<?= $cdnUrl ?>vendor/countdowntime/moment-timezone.min.js"></script>
-<script src="<?= $cdnUrl ?>vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-<script src="<?= $cdnUrl ?>vendor/countdowntime/countdowntime.js"></script>
-<script>
-    $('.cd100').countdown100({
-        endtimeYear: <?= $c_year ?>,
-        endtimeMonth: <?= $c_month ?>,
-        endtimeDate: <?= $c_day ?>,
-        endtimeHours: <?= $c_hour ?>,
-        endtimeMinutes: <?= $c_minute ?>,
-        endtimeSeconds: <?= $c_second ?>,
-        timeZone: "<?= $c_timezone ?>"
-    });
-</script>
+<script src="<?= $cdnUrl ?>counter/jquery/jquery-3.2.1.min.js"></script>
+<script src="<?= $cdnUrl ?>counter/bootstrap/js/popper.js"></script>
+<script src="<?= $cdnUrl ?>counter/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?= $cdnUrl ?>counter/select2/select2.min.js"></script>
+<script src="<?= $cdnUrl ?>counter/countdowntime/moment.min.js"></script>
+<script src="<?= $cdnUrl ?>counter/countdowntime/moment-timezone.min.js"></script>
+<script src="<?= $cdnUrl ?>counter/countdowntime/moment-timezone-with-data.min.js"></script>
+<script src="<?= $cdnUrl ?>counter/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
+<script src="<?= $cdnUrl ?>counter/tilt/tilt.jquery.min.js"></script>
 <script >
     $('.js-tilt').tilt({
         scale: 1.1
     })
 </script>
 <!--===============================================================================================-->
-<script src="<?= $cdnUrl ?>js/main.js"></script>
+<script src="<?= $cdnUrl ?>counter/main.js"></script>
 
 </body>
+
 </html>
+
+<!--
+/*
+* Copyright &copy; 2009-2020 - Björn Schleyer Einzelunternehmen (baldige Schleyer-EDV UG (haftungsbeschränkt))
+* Made with-&hearts; in Gelsenkirchen-Erle - Björn Schleyer
+* Designed by Bootstrap Made and developed by Schleyer-EDV
+*/
+-->

@@ -51,14 +51,7 @@
         $(thisAlert).removeClass('alert-validate');
     }
 
-    /*==================================================================
-    [ Modal ]*/
-    $('.modal-subscribe').on('click',function(e){
-        e.stopPropagation();
-    })
     
-    $('.btn-close-modal').on('click', function(){
-        $('#subscribe').modal('hide');
-    });
+    
 
 })(jQuery);
