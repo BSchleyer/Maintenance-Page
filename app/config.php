@@ -1,11 +1,11 @@
 <?php
 
 ### Site ###
-$siteName = 'Reseller-Services'; // SiteName
+$siteName = 'BSchleyer'; // SiteName
 $indexName = 'Maintenance'; // Name of the index file (Tablist)
 $imprintName = 'Imprint'; // Name of the imprint file (Tablist)
 $privacyName = 'Privacy'; // Name of the policy file (Tablist)
-$url = 'https://www.reseller-services.de/'; // URL with "/" to the end
+$url = 'https://maintenance.bschleyer.de/'; // URL with "/" to the end
 
 $button_left = 'Privacy'; // button in the footer of the left side
 $button_right = 'Imprint'; // button in the footer of the right side
@@ -49,7 +49,7 @@ $ErrorText = 'Unfortunately we could not meet your request. So we cannot open th
 $header_text_i = 'Imprint'; // name of the header under the button
 $header_secondtext_i = 'Information by service provider within the meaning of §5 TMG'; // subname of the header
 
-$i_projectname = 'Schleyer-EDV'; // Projectname
+$i_projectname = 'BSchleyer'; // Projectname
 $i_street = 'Eppmannsweg 5'; // street and house number
 $i_postcode_and_city = '45896 Gelsenkirchen'; // postcode and the city
 $i_state = 'Germany'; // state: example: Germany
@@ -59,7 +59,7 @@ $i_responsible_address = 'Address as above'; // address or Address or as above (
 $i_phone_areaCode = '49'; // phone area code
 $i_phone_number = '20951301038'; // phone number
 $i_fax = ''; // fax number
-$i_email = 'vertrieb@schleyer-edv.de'; // email address
+$i_email = 'mail@bschleyer.de'; // email address
 
 ### Privacy Setting ###
 $header_text_p = 'Data protection declaration'; // name of the header under the button
