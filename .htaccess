@@ -1,0 +1,27 @@
+
+<IfModule mod_rewrite.c>
+
+    RewriteEngine on
+    RewriteBase /
+
+    # errors
+    RewriteRule ^404/?$ 404.php [L]
+    ErrorDocument 404 /404.php
+
+    #index
+    RewriteRule ^/?$ index.php [L]
+    RewriteRule ^/home?$ index.php [L]
+    RewriteRule ^home?$ index.php [L]
+
+    # legal
+    RewriteRule ^privacy?$ privacy.php [L]
+    RewriteRule ^imprint?$ imprint.php [L]
+
+
+
+</IfModule>
+
+<Files 403.shtml>
+    order allow,deny
+    allow from all
+</Files>
